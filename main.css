@@ -1,0 +1,254 @@
+ .blur {
+        filter: blur(3px);
+        -webkit-filter: blur(3px);
+}
+
+.modal-content{
+    position: fixed;
+     display: block;
+  width: 1000px;
+    z-index: 100;
+ //   margin-top: 20px;
+   
+}
+
+.hao{
+    margin-top: 20px;
+    text-align: center;
+}
+#defaultSuggestion{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#cross{
+    border: 1px solid #555;
+    float: right;
+    
+}
+
+.userInput{
+    text-align: center;
+    font-size: 24px;
+}
+
+#hole{
+    width: 180px;
+    height: auto;
+    position: fixed;
+    top:80%;
+    left: 12%;
+    z-index: 1000;
+}
+
+
+
+#hole2{
+    width: 370px;
+    height: auto;
+    position: fixed;
+    top:55%;
+    left: 72%;
+    z-index: 1000;
+
+}
+
+#hole3{
+    width: 180px;
+    height: auto;
+    position: fixed;
+    top:30%;
+    left: 85%;
+    z-index: 1000;
+
+}
+
+
+#hole4{
+    width: 240px;
+    height: auto;
+    position: fixed;
+    top:25%;
+    left: 85%;
+    z-index: 1000;
+
+}
+
+#hole5{
+    width: 300px;
+    height: auto;
+    position: fixed;
+    top:20%;
+    left: 12%;
+    z-index: 1000;
+
+}
+
+
+#hole6{
+    width: 400px;
+    height: auto;
+    position: fixed;
+    top:45%;
+    left: 50%;
+    z-index: 1000;
+
+}
+
+#hole7{
+    width: 230px;
+    height: auto;
+    position: fixed;
+    top:55%;
+    left: 50%;
+    z-index: 1000;
+
+}
+
+
+#crack{
+    width: 280px;
+    height: auto;
+    position: fixed;
+    top:33%;
+    left: 19.5%;
+    opacity: 70%;
+        z-index: 1000;
+
+}
+
+
+ .clean {
+        filter: blur(0px);
+        -webkit-filter: blur(0px);
+}
+
+#beian {
+    color: #9b9b9b;
+}
+
+#beian a{
+    color: #9b9b9b;
+}
+
+
+
+
+
+.clear{
+    
+   position: absolute;
+    z-index: 2;
+    background: white;
+    
+  transform: translateY( 3px);
+    right: 10px;
+    
+}
+
+
+
+.hide{
+    display: none;
+}
+
+
+body{
+background: linear-gradient(#ffffff, #C0C3EB,#ffffff );
+background-size: 400% 200%;
+
+
+
+}
+
+li{
+    font-size: 24px;
+    margin-left: 5px;
+    line-height: 42px;
+    background-color: white;
+}
+
+li:hover{
+    color: white;
+    background-color: #C0C3EB;
+}
+
+.logo{
+    position: relative;
+    top:-17px;
+    left: 30px;
+}
+
+.wbs-hotrank .m-wrap {
+    
+    background: linear-gradient(#ffffff, #C0C3EB,#ffffff );
+    border: 0.5px solid lightgrey;
+
+
+}
+
+
+.label{
+    
+text-align: center;
+    opacity: 100;
+    padding-top: 5px;
+    //font-style: italic;
+    font-family: sans-serif;
+    
+}
+
+
+.hoverImage{
+    z-index: 10000;
+    position: fixed;
+    width: 200px;
+    height: 200px;
+}
+
+
+
+.show{
+  opacity: 1;
+}
+
+
+
+
+
+.back{
+    background-color: #CD550F;
+}
+
+
+.newPage{
+    
+    position:fixed;
+    left: 200px;
+}
+
+.m-search input{
+    color: lightgray;
+}
+
+
+.wrapper{
+    position: fixed;
+    z-index: 20;
+    width: auto;
+    justify-content: center;
+    align-content: center;
+    
+}
+
+
+.container{
+    position: fixed;
+    z-index: 20;
+    width: auto;
+    justify-content: center;
+    align-content: center;
+    
+}
+
